@@ -9,8 +9,29 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
-  <body>
+    <body>
+      <header>
+        <nav class="be-red white">
+          <ul class="no-list row center-xs">
+            <li class="col-md">
+            <%= link_to "Home", root_path %>
+            </li>
+            <li class="col-md">
+            <%= link_to "Bio", pages_bio_path %>
+            </li>
+            <li class="col-md">
+            <%= link_to "Service", pages_service_path %>
+            </li>
+            <li class="col-md">
+            <%= link_to "Work", pages_work_path %>
+            </li>
+          </ul>
+        </nav>
+      </header>
+  
     <%= yield %>
-  </body>
+    
+
+
+    </body>
 </html>
