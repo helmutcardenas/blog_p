@@ -47,3 +47,52 @@ h1{
 a:visited{
     color: inherit; /*para que los link mantengan su color */
 }
+
+.form-register{
+    width: 400px;
+    background: #636573;
+    padding: 30px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+    border-radius: 5px;
+    font-family: 'Space Mono', monospace;
+}
+
+.form-register h4{
+    color: #BFA7F2;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    background: #BFA7F2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #323240;
+    font-family: 'Space Mono', monospace;
+}
+
+.coment{
+    width: 100%;
+    background: #BFA7F2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #323240;
+    font-family: 'Space Mono', monospace;
+}
+
+.form-register .buttons{
+    width: 100%;
+    background: #DCF235;
+    border: none;
+    padding: 12px;
+    color: #323240;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}

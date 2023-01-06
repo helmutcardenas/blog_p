@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def bio
   end
+
+  def new
+  end
 end
