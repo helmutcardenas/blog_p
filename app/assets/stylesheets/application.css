@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
+
+html,body{
+    margin: 0px
+}
+
+.be-red{
+    background-color: #DCF235;
+}
+
+.white{
+    color: #323240;
+}
+
+.large-padding{
+    padding: 15px 10px;
+}
+
+nav{
+    padding: 15px 10px;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    margin-left: 20px;
+    color:#636573;
+}
+
+a:visited{
+    color: inherit; /*para que los link mantengan su color */
+}
